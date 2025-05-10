@@ -142,7 +142,7 @@ body {
 }
 
 .part-of-speech {
-    color: #666;
+    color: var(--primary-color);
     font-weight: 600;
     margin-top: 1rem;
     font-size: 0.9rem;
@@ -231,4 +231,8 @@ body {
 .clickable-word:hover {
     text-decoration: underline;
     opacity: 0.8;
+}
+
+.clickable-active .part-of-speech {
+    color: black;
 }
